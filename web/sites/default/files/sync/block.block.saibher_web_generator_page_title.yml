@@ -1,0 +1,20 @@
+uuid: cd5005f3-6afc-4f73-bbe2-cc0fb7443075
+langcode: en
+status: true
+dependencies:
+  theme:
+    - saibher_web_generator
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: saibher_web_generator_page_title
+theme: saibher_web_generator
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

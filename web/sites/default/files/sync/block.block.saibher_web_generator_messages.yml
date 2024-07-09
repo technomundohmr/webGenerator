@@ -1,0 +1,22 @@
+uuid: 960b56fe-ff6c-4f39-92a9-ee0e0356796c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - saibher_web_generator
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: saibher_web_generator_messages
+theme: saibher_web_generator
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

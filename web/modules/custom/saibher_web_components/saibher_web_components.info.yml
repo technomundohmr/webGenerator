@@ -1,0 +1,6 @@
+name: 'Componentes web de drupal'
+type: module
+description: 'Modulo con los componentes en bloque de diseño de saibher para generar webs rápidas y sencillas.'
+package: 'Saibher'
+version: 1.0
+core_version_requirement: ^9 || ^10

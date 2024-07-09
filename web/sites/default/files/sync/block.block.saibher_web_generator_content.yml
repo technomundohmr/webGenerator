@@ -1,0 +1,22 @@
+uuid: bad15be9-9fb1-48eb-9823-ae48e3eae16d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - saibher_web_generator
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: saibher_web_generator_content
+theme: saibher_web_generator
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

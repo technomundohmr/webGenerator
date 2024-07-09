@@ -1,0 +1,22 @@
+uuid: 35d36f02-0d42-4758-b004-cc299e8d5d5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - saibher_web_generator
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: saibher_web_generator_help
+theme: saibher_web_generator
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

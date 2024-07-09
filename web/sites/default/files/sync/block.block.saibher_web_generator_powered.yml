@@ -1,0 +1,22 @@
+uuid: 6e23067e-1bbd-43f4-a69b-6b03d6e7c4cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - saibher_web_generator
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: saibher_web_generator_powered
+theme: saibher_web_generator
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,16 @@
+name: 'web generator'
+type: theme
+description: 'Un tema generador de webs de distintos tipos para drupal 10'
+core_version_requirement: ^10
+base theme: false
+package: Saibher
+libraries:
+  - saibher_web_generator/global
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

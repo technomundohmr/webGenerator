@@ -1,0 +1,23 @@
+uuid: 22d4b254-e385-4b1d-8159-c7c1f9265eee
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - saibher_web_generator
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: saibher_web_generator_search_form_narrow
+theme: saibher_web_generator
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
