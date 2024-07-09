@@ -40,7 +40,7 @@ sites/simpletest
 
 # Ignore multi-site test environment.
 # simpletest
-.ddev
+
 
 web/core/
 web/modules/contrib
